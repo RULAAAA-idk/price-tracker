@@ -1,0 +1,6 @@
+config.json
+price_history.csv
+__pycache__/
+*.pyc
+venv/
+.env

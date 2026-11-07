@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "notify_email": "you@example.com",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 465,
+    "delay_seconds": 3
+  },
+  "products": [
+    {
+      "name": "Example Wireless Mouse",
+      "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+      "price_selector": "p.price_color",
+      "target_price": 50.00
+    },
+    {
+      "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+      "name_selector": "div.product_main h1",
+      "price_selector": "p.price_color",
+      "target_price": 30.00
+    }
+  ]
+}
